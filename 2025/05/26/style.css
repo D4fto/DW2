@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#03072c, #000000);
+}
+.output{
+    background-color: white;
+    border: 1px solid;    aspect-ratio: 3/4;
+    max-width: 60dvh;
+    min-width: 60dvh;
+    max-height: 80dvh;
+    min-height: 80dvh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: inset #03072c 0px 0px 
+    100px 0px;
+}
+.output>*{
+    text-align: center;
+}
+section{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#titulo{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#subtitulo{
+    font-size: 1.5rem;
+}
+div{
+    font-size: 1.25rem;
+}
+.isbn-group{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+button{
+    padding: 5px 15px;
+    background-color: rgb(196, 196, 196);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    
+    background-color: rgb(174, 208, 236);
+}
+.output-container{
+    display: flex;
+    gap: 15px;
+    
+    /* background-color: white; */
+}
+label{
+    color: white;
+}

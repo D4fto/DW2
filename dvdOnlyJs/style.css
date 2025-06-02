@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+    position: relative;
+    overflow: hidden;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+}
+.dvd{
+    position: absolute;
+}
+#quinas{
+    z-index: 1;
+    font-size: 3rem;
+}
