@@ -10,3 +10,12 @@ body{
   flex-direction: column;
   justify-content: space-between;
 }
+.filtro {
+  backdrop-filter: blur(8px);
+  height: 100dvh;
+  width: 100dvw;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}

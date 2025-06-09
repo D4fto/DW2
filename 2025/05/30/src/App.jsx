@@ -9,6 +9,9 @@ function App() {
       <Header></Header>
       <MainContent></MainContent>
       <Footer></Footer>
+      <div className="filtro">
+
+      </div>
     </div>
   )
 }

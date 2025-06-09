@@ -1,8 +1,7 @@
 .app-header {
     background-color: #8c70da;
-    color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
-    box-shadow: 0px 15px 20px 20px #8c70da;
-    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+
 }
